@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;  /* Ensures that the container fits its parent’s width */
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; /* Ensures that the table has a minimum width */
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    min-width: 120px; /* Ensures that each cell has a minimum width */
+}
+
+.results-table th {
+    background-color: #f2f2f2;
+}
+
+.results-table td:last-child, .results-table th:last-child {
+    font-weight: bold;
+}
